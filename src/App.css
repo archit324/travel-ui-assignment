@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.margin-5{
+  margin-right: 0.5rem;
+}
+.font-buttons{
+  font-size: 0.9em !important;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.border-outer{
+  border:  1px solid;
+}
+
+.paddingtop10{
+  padding-top: 1em;
+  font-size: 0.85em;
+}
+.approval-font{
+  font-size: 24px !important;
+  color: black !important;
+}
+
+.button-status{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button5 {border-radius: 50%;}
+
+.button-page {
+  background-color: #007bff; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+
+}
+
+.button-page:hover{
+  background-color: white;
+  color:#007bff;
+  border: 1px solid #007bff;
+}
+
+.font-pagination{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nav-bold{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
